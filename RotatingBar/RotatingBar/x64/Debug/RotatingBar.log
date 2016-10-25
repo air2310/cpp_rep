@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(34): warning C4244: 'argument': conversion from 'float' to 'const size_t', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(42): warning C4244: '=': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(72): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(78): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(81): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(133): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(169): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\drawshit.h(190): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\rotatingbar\rotatingbar\main.cpp(13): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  RotatingBar.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\RotatingBar\x64\Debug\RotatingBar.exe
+  RotatingBar.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\RotatingBar\x64\Debug\RotatingBar.pdb (Partial PDB)
