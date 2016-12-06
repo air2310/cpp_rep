@@ -1,0 +1,37 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(41): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(47): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(88): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\flicker.h(103): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\settings.h(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\particlesystem.h(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\particlesystem.h(45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\particlesystem.h(48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\sprites.h(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(121): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(140): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(142): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(167): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(178): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(178): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(180): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(180): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(183): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(186): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(201): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(224): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(283): warning C4244: '=': conversion from 'sf::Int64' to 'double', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\spaceship_release\sfml_network\drawshit.h(97): warning C4101: 'xobsticlepos': unreferenced local variable
+  Generating code
+  2 of 421 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sfml_network.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\Spaceship_release\x64\Release\sfml_network.exe
+  sfml_network.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\Spaceship_release\x64\Release\sfml_network.pdb (Full PDB)

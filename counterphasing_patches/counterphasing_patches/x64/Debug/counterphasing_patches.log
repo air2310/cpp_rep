@@ -1,0 +1,24 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(41): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(47): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(69): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(88): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\flicker.h(103): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(20): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(139): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(139): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(141): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(141): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(144): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(151): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(151): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(153): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(153): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(156): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(157): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\counterphasing_patches\counterphasing_patches\main.cpp(209): warning C4244: '=': conversion from 'sf::Int64' to 'double', possible loss of data
+  counterphasing_patches.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\counterphasing_patches\x64\Debug\counterphasing_patches.exe
+  counterphasing_patches.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\counterphasing_patches\x64\Debug\counterphasing_patches.pdb (Partial PDB)

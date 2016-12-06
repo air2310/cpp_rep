@@ -1,0 +1,31 @@
+﻿  CreateColorCond.cpp
+  cue.cpp
+cue.cpp(34): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+cue.cpp(36): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+cue.cpp(42): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+cue.cpp(43): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+  main.cpp
+main.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PreAllocateAst.cpp
+PreAllocateAst.cpp(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+PreAllocateAst.cpp(38): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  Feedback.cpp
+Feedback.cpp(39): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+Feedback.cpp(41): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+Feedback.cpp(48): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+Feedback.cpp(49): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+Feedback.cpp(50): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+Feedback.cpp(101): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+Feedback.cpp(109): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+Feedback.cpp(150): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  CreateFlicker.cpp
+CreateFlicker.cpp(32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  sctructures.cpp
+  Trialbmp.cpp
+Trialbmp.cpp(242): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Generating code
+c:\users\s4262470\documents\angela_renton_local\asteroidscpp\asteroidscpp\main.cpp(71): warning C4715: 'choosenFrames': not all control paths return a value
+  All 378 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  AsteroidsCPP.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\AsteroidsCPP\Release\AsteroidsCPP.exe
+  AsteroidsCPP.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\AsteroidsCPP\Release\AsteroidsCPP.pdb (Full PDB)

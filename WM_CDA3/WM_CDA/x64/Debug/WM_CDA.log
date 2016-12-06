@@ -1,0 +1,47 @@
+﻿  main.cpp
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(53): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(64): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(182): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(184): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(185): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(186): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(189): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(190): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(204): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(246): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(276): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(290): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(291): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(292): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(368): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(370): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\stimgen.h(435): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(11): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(30): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(31): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(53): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(73): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(101): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(122): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(187): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(207): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(209): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(276): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(277): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(278): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(279): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(447): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(459): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(469): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(479): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(490): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\gamelogic.h(492): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\writetxt.h(27): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\writetxt.h(64): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\drawshit.h(20): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\main.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\main.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\uqarento\documents\angela_renton_local\working_memory\wm_cda3\wm_cda\main.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WM_CDA.vcxproj -> C:\Users\uqarento\Documents\angela_renton_local\working_memory\WM_CDA3\x64\Debug\WM_CDA.exe
+  WM_CDA.vcxproj -> C:\Users\uqarento\Documents\angela_renton_local\working_memory\WM_CDA3\x64\Debug\WM_CDA.pdb (Partial PDB)

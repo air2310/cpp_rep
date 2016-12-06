@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\graphics_test\graphics_test\main.cpp(110): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\graphics_test\graphics_test\main.cpp(114): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  graphics_test.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\graphics_test\x64\Debug\graphics_test.exe
+  graphics_test.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\graphics_test\x64\Debug\graphics_test.pdb (Partial PDB)

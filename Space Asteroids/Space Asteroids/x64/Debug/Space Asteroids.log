@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\s4262470\documents\angela_renton_local\space asteroids\space asteroids\main.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Space Asteroids.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\Space Asteroids\x64\Debug\Space Asteroids.exe
+  Space Asteroids.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\Space Asteroids\x64\Debug\Space Asteroids.pdb (Partial PDB)

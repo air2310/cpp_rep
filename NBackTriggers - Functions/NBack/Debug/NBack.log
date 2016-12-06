@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(186): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(189): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(191): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(194): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(196): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(199): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(201): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(204): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(206): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(209): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(211): warning C4309: 'argument': truncation of constant value
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(336): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(351): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\nbacktriggers - functions\nback\main.cpp(365): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+  NBack.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\NBackTriggers - Functions\Debug\NBack.exe
+  NBack.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\NBackTriggers - Functions\Debug\NBack.pdb (Partial PDB)

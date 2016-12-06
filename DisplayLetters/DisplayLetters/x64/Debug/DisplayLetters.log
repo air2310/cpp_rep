@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\displayletters\displayletters\draw.h(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DisplayLetters.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\DisplayLetters\x64\Debug\DisplayLetters.exe
+  DisplayLetters.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\DisplayLetters\x64\Debug\DisplayLetters.pdb (Partial PDB)

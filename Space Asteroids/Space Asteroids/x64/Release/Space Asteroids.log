@@ -1,0 +1,12 @@
+﻿  ContactMatrix.cpp
+  CreateColorCond.cpp
+  main.cpp
+main.cpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PreAllocateAst.cpp
+PreAllocateAst.cpp(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+PreAllocateAst.cpp(38): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  Generating code
+  All 404 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Space Asteroids.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\Space Asteroids\x64\Release\Space Asteroids.exe
+  Space Asteroids.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\Space Asteroids\x64\Release\Space Asteroids.pdb (Full PDB)

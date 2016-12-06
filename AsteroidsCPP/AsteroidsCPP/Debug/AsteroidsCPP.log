@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\s4262470\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\main.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\main.cpp(71): warning C4715: 'choosenFrames': not all control paths return a value
+  AsteroidsCPP.vcxproj -> C:\Users\s4262470\Documents\Visual Studio 2015\Projects\AsteroidsCPP\Debug\AsteroidsCPP.exe
+  AsteroidsCPP.vcxproj -> C:\Users\s4262470\Documents\Visual Studio 2015\Projects\AsteroidsCPP\Debug\AsteroidsCPP.pdb (Partial PDB)

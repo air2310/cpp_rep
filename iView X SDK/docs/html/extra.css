@@ -1,0 +1,21 @@
+body {
+  background: url('bg_body.gif');
+}
+
+a, a.el, a.elRef, 
+a.el:visited, a.elRef:visited {
+  color: #709306;
+}
+
+#projectlogo img {
+  padding: 5px;
+}
+
+#projectlogo a {
+  outline: none;
+}
+
+#projectname {
+  padding: 0px 15px;
+  color: #0000A0;
+}

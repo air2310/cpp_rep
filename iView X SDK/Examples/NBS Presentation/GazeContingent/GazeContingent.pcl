@@ -1,0 +1,296 @@
+# -----------------------------------------------------------------------
+#
+# (c) Copyright 1997-2013, SensoMotoric Instruments GmbH
+# 
+# Permission  is  hereby granted,  free  of  charge,  to any  person  or
+# organization  obtaining  a  copy  of  the  software  and  accompanying
+# documentation  covered  by  this  license  (the  "Software")  to  use,
+# reproduce,  display, distribute, execute,  and transmit  the Software,
+# and  to  prepare derivative  works  of  the  Software, and  to  permit
+# third-parties to whom the Software  is furnished to do so, all subject
+# to the following:
+# 
+# The  copyright notices  in  the Software  and  this entire  statement,
+# including the above license  grant, this restriction and the following
+# disclaimer, must be  included in all copies of  the Software, in whole
+# or  in part, and  all derivative  works of  the Software,  unless such
+# copies   or   derivative   works   are   solely   in   the   form   of
+# machine-executable  object   code  generated  by   a  source  language
+# processor.
+# 
+# THE  SOFTWARE IS  PROVIDED  "AS  IS", WITHOUT  WARRANTY  OF ANY  KIND,
+# EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+# MERCHANTABILITY,   FITNESS  FOR  A   PARTICULAR  PURPOSE,   TITLE  AND
+# NON-INFRINGEMENT. IN  NO EVENT SHALL  THE COPYRIGHT HOLDERS  OR ANYONE
+# DISTRIBUTING  THE  SOFTWARE  BE   LIABLE  FOR  ANY  DAMAGES  OR  OTHER
+# LIABILITY, WHETHER  IN CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT
+# OF OR IN CONNECTION WITH THE  SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+#
+# -----------------------------------------------------------------------
+
+# Author: 
+# (C) 2013 Sensomotoric Instruments 
+
+
+###################################################################
+#																						#
+#	choose Calibration method, auto accept, and calibration speed	#
+#																						#
+###################################################################
+
+# Calibration method 
+#double calibration_method = 2.0;
+double calibration_method = 5.0;
+#double calibration_method = 9.0;
+#double calibration_method = 13.0;
+
+# Calibration auto accept
+#double calibration_auto_accept = 0.0;
+double calibration_auto_accept = 1.0;
+
+# Calibration speed
+double calibration_speed = 0.0;
+#double calibration_speed = 1.0;
+
+
+###########################################
+#														#
+#	choose connection settings to 			#
+#	establish communication with iView X	#
+#														#
+###########################################
+
+# connection settings
+string iViewX_IP = "127.0.0.1";
+string Local_IP = "127.0.0.1";
+int Send_Port = 4444;
+int Recv_Port = 5555;
+
+
+###################################################################
+#																						#
+#	variables from SDL file 													#
+#																						#
+###################################################################
+
+int max_x = display_device.width() / 2;
+int min_x = -max_x;
+int max_y = display_device.height() / 2;
+int min_y = -max_y;		
+mouse mse = response_manager.get_mouse(1);
+
+int widthwindow = int(get_sdl_variable ("width_window"));
+double width_window = double (widthwindow);
+int heightwindow = int(get_sdl_variable ("height_window"));
+double height_window = double (heightwindow);
+int widthscreen = int(get_sdl_variable ("width_screen"));
+double width_screen = double (widthscreen);
+int heightscreen = int(get_sdl_variable ("height_screen"));
+double height_screen = double (heightscreen);
+
+
+#######################################################
+#																		#
+#	definition of iView X API functions 					#
+#	do not change the instance definitions;				#
+#	for more information check the iView X SDK Manual	#
+#																		#
+#######################################################
+
+# create iViewXAPI::eye_tracker2 instance 
+iViewXAPI::eye_tracker2 tracker2;
+
+# create eye_tracker instance 
+eye_tracker tracker;
+
+#resp definition (accepts mouseclick)
+sub bool resp (int button, int current_count)
+begin
+	if response_manager.total_response_count(button) > current_count then
+		return true
+	end;
+	return false;
+end;
+
+
+# subroutine focus
+sub bool start_experiment
+begin
+	eye_position_data eyepos;
+	pupil_data diameter;
+	fixation_event_data fixation;
+
+	data_acquisition.present();
+	
+	#loop for refreshing gaze position
+	loop 
+	int m_responses = response_manager.total_response_count(1);
+	double x;
+	double y;
+	int count = 0;
+	int fixationcount = 0;
+	until  false 
+		begin
+
+			count = tracker.new_position_data();
+
+			#fixationcount = tracker.new_fixation_events();
+
+			# check if new gaze position data is available 
+			if(count > 0) then
+
+				# get gaze position data 
+				eyepos = tracker.last_position_data();
+
+				# get pupil data 
+				#diameter = tracker.last_pupil_data(); 
+
+				# get fixation data 
+				#fixation = tracker.last_fixation_event(et_left);
+
+				# get current gaze position 
+				x = eyepos.x();
+				y = eyepos.y();
+
+				# get current pupil position 
+				#x = diameter.x();
+				#y = diameter.y();
+
+				# get current fixation data 
+				#x = fixation.x();
+				#y = fixation.y();
+
+				# clear alpha channel
+				image01_texture.set_alpha_clear_mode(clear_mode_all, 0);
+
+				# texture copies alpha channel to bitmap
+				image01_texture.copy_to_alpha(
+							window, 						#surface
+							x - width_window / 2.0, #x-position of desktop (dest_left)
+							y - height_window / 2.0,#y-position of desktop (dest_top)
+							0.0, 							#x-position of bitmap (source_left)
+							0.0, 							#y-position of bitmap (source_top)
+							height_window, 			#height of bitmap 
+							width_window, 				#width of bitmap 
+							2 ); 							#which channel you copy 
+
+				# show picture
+				pic_focus.present();
+
+			end;
+
+			# end presentation if button was pressed 
+			if resp(1, m_responses) then
+				return false
+			end;
+
+		end;
+	return false;
+end;
+
+
+
+
+
+
+#######################################################
+#																		#
+#	definition of iView X API functions 					#
+#	do not change the instance definitions;				#
+#	for more information check the iView X SDK Manual	#
+#																		#
+#######################################################
+
+# create PCL instance 
+tracker2 = new iViewXAPI::eye_tracker2( "{B7A4A7F7-7879-4C95-A3BA-6CCB355AECF6}" );
+int ret = tracker2.connect(iViewX_IP, Send_Port, Local_IP, Recv_Port);
+if ret == 1 then
+
+	tracker = new eye_tracker( "{FDC35980-7480-4761-859F-4DCCFA93BA57}" );
+	tracker.start_tracking();
+
+
+	#############################################################
+	#																				#
+	#	calibrate, validate eye tracker and start receiving data	#
+	#																				#
+	#############################################################
+
+
+	# start calibration 
+	tracker.calibrate( et_calibrate_default, calibration_method, calibration_auto_accept, calibration_speed);
+	wait_interval (500);
+
+	# start validation 
+	tracker.calibrate(2, calibration_method, calibration_auto_accept, calibration_speed);
+
+	# get accuracy measurement 
+	double accuracy_x, accuracy_y;
+	accuracy_x = tracker2.get_accuracy_x();
+	accuracy_y = tracker2.get_accuracy_y();
+
+	# show picture with accuracy text 
+	accuracy_text.set_caption("Validation Results: \n\n Accuracy X: " + string(accuracy_x) + "\n Accuracy Y: " + string(accuracy_y));
+	accuracy_text.redraw();
+	accuracy_picture.present(); 
+
+	wait_interval (1000);
+
+	# start receiving gaze position and pupil data 
+	tracker.start_data(dt_position, false);
+	tracker.start_data(dt_pupil, false);
+	tracker.start_data(et_left, dt_fixation, false);
+
+
+	##############################################
+	#															#
+	#	start experiment 									#
+	#															#
+	##############################################
+
+	start_experiment();
+
+
+	##############################################
+	#															#
+	#	finish experiment									#
+	#															#
+	##############################################
+
+	#stop receiving data
+	tracker.stop_data(dt_position);
+	tracker.stop_data(dt_pupil);
+	tracker.stop_data(et_left, dt_fixation);
+
+	#stop the eyetracker
+	tracker.stop_tracking();
+
+	#disconnect from eyetracker
+	tracker2.disconnect();
+
+	end_experiment.present();
+	wait_interval (1000);
+
+else
+
+	# connection could not be established 
+	
+	# set size of plane to screen size
+	plane1.set_size(width_screen, height_screen);
+	
+	# show picture
+	connect_error.present();
+	
+	loop
+	int m_responses = response_manager.total_response_count(1);
+	until false
+	begin
+		# end presentation if button was pressed 
+		if resp(1, m_responses) then
+			break;
+		end;
+	end;
+	
+end;
+

@@ -1,0 +1,48 @@
+Hzs = [11 13 17 19];
+for H = 1:length(Hzs)
+clear sig
+Hz = Hzs(H);
+fs = 144;
+frames = fs/Hz;
+
+% frameactual = 14;
+% t = 0:0.0069:frames/144;
+% t = 0:frames;
+
+t = 0:1/fs:1/Hz;
+
+trial = 0:1/fs:5-1/fs;
+
+for x = 1:length(trial)
+    sig(x) = sin(2*pi/frames*x);
+end
+
+h = figure; hold on
+plot(trial, sig);
+plot(trial, sig, 'rx')
+title([num2str(Hz) 'Hz'])
+
+saveas(h, [ cd '/' num2str(Hz) '.png'])
+end
+
+%% How I'll do it in C++
+triallength = 5;
+f.trial = fs*triallength;
+
+fs = 144;
+Hz = 11;
+frames = fs/Hz;
+
+
+for x = 1:f.trial
+    sig(x) = sin(2*pi/frames*x);
+end
+
+
+
+
+
+  amp = abs( fft( erp ) )/n.x;
+    amp(2:end-1,:) = amp(2:end-1,:)*2; % double amplitudes
+    
+    

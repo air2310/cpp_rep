@@ -1,0 +1,4 @@
+Trial	Response	RT	Accuracy
+0	1	2571	1
+1	1	2003	1
+2	0	3339	1

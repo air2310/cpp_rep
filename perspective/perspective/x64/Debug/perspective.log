@@ -1,0 +1,16 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(81): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(106): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(112): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(154): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(157): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(158): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(166): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(169): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\uqarento\documents\visual studio 2015\projects\perspective\perspective\main.cpp(170): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  perspective.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\perspective\x64\Debug\perspective.exe
+  perspective.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\perspective\x64\Debug\perspective.pdb (Partial PDB)

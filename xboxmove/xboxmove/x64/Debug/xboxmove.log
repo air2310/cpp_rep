@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(55): warning C4244: 'argument': conversion from 'double' to 'sf::Uint8', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\fnirs\xboxmove\xboxmove\main.cpp(116): warning C4244: '=': conversion from 'sf::Int64' to 'double', possible loss of data
+  xboxmove.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\fNIRS\xboxmove\x64\Debug\xboxmove.exe
+  xboxmove.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\fNIRS\xboxmove\x64\Debug\xboxmove.pdb (Partial PDB)

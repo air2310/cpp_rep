@@ -1,0 +1,177 @@
+Hzs = [11 13 17 19];
+for H = 1:length(Hzs)
+clear sig
+Hz = Hzs(H);
+fs = 144;
+frames = fs/Hz;
+
+% frameactual = 14;
+% t = 0:0.0069:frames/144;
+% t = 0:frames;
+
+t = 0:1/fs:1/Hz;
+
+trial = 0:1/fs:5-1/fs;
+
+for x = 1:length(trial)
+    sig(x) = sin(2*pi/frames*x);
+end
+
+h = figure; hold on
+plot(trial, sig);
+plot(trial, sig, 'rx')
+title([num2str(Hz) 'Hz'])
+
+% saveas(h, [ cd '/' num2str(Hz) '.png'])
+end
+
+%% How I'll do it in C++
+triallength = 5;
+f.trial = fs*triallength;
+
+fs = 144;
+Hz = 11;
+frames = fs/Hz;
+
+
+for x = 1:f.trial
+    sig(x) = sin(2*pi/frames*x);
+end
+
+
+%% TEST SIGNAL
+fs = 144;
+lim.s = [0 5]; % epoch limits (seconds) relative to trigger
+
+lim.x = ceil(lim.s*fs) + 1;
+lim.x(2) = lim.x(2)  - 1;
+
+n.s = lim.s(2)-lim.s(1);
+n.x = lim.x(2)-lim.x(1)+1;
+
+t = (0:n.x-1)/fs;
+
+f = 0 : 1/n.s : fs - 1/n.s; % f = 0 : 1/n.s : fs;
+
+
+amp = abs( fft( sig ) )/n.x;
+amp(2:end-1,:) = amp(2:end-1,:)*2; % double amplitudes
+    
+h = figure;
+plot(f,amp )
+
+%% Intermod2
+close all
+
+str.Hz = {'f1' 'f2' 'f3' 'f4' };
+str.Hzdoub = {'2*f1' '2*f2' '2*f3' '2*f4' };
+str.Hz2 = {'f1+f4' 'f2+f4' 'f3+f4' 'f1+f2' 'f1+f3' 'f2+f3'};
+str.Hz3 = {'f1-f4' 'f2-f4' 'f3-f4' 'f1-f2' 'f1-f3' 'f2-f3'};
+
+Hz = [6 10 14 18 ];
+Hz2 = [Hz(1)+Hz(4)   Hz(2)+Hz(4)   Hz(3)+Hz(4)   Hz(1)+Hz(2)   Hz(1)+Hz(3) Hz(2)+Hz(3)   ]; %Hzx+Hzy
+Hz3 = [abs(Hz(1)-Hz(4))   abs(Hz(2)-Hz(4))   abs(Hz(3)-Hz(4))   abs(Hz(1)-Hz(2))   abs(Hz(1)-Hz(3)) abs(Hz(2)-Hz(3))   ]; %Hzx-Hzy
+  
+% Hz3 = [];
+% for j = 1:3
+%     for i = 1:3
+%         Hz3 = [ Hz3, abs(Hzx(i)-Hzy(j))];
+%     end
+% end
+
+h = figure; hold on;
+
+stem(Hz, ones(length(Hz),1)*2, 'r')
+stem(Hz*2, ones(length(Hz),1)*1.5, 'g')
+stem(Hz2, ones(length(Hz2),1)*1, 'b')
+stem(Hz3, ones(length(Hz3),1)*0.5, 'k')
+
+
+for H = 1:length(Hz)
+    text(Hz(H), 2.05, str.Hz{H})
+    text(Hz(H)*2, 1.55, str.Hzdoub{H})
+end
+
+for H = 1:length(Hz2)
+    text(Hz2(H), 1.05, str.Hz2{H})
+    text(Hz3(H), 0.55, str.Hz3{H})
+end
+
+legend({'fund' '2*fund' 'a+b' 'a-b'})
+xlim([0 45])
+ylim([0 3])
+xlabel('Frequency (Hz)')
+
+% saveas(h, [ cd '/results/FREQUENCIES.png']);
+% saveas(h, [ cd '/results/FREQUENCIES']);
+
+
+%% Intermod
+close all
+
+str.Hz = {'f1' 'f2' 'f3' 'f4' 'f5' 'f6'};
+str.Hzdoub = {'2*f1' '2*f2' '2*f3' '2*f4' '2*f5' '2*f6'};
+str.Hz2 = {'f1+f4' 'f2+f4' 'f3+f4' 'f1+f5' 'f2+f5' 'f3+f5' 'f1+f6' 'f2+f6' 'f3+f6'};
+str.Hz3 = {'f1-f4' 'f2-f4' 'f3-f4' 'f1-f5' 'f2-f5' 'f3-f5' 'f1-f6' 'f2-f6' 'f3-f6'};
+
+Hz = [4.97 20.57 13.09 8.47 7.58 6.29];
+Hz2 = [13.4400   29.0400   21.5600   12.5500   28.1500   20.6700   11.2600   26.8600   19.3800]; %Hzx+Hzy
+Hz3 = [ 3.5000   12.1000    4.6200    2.6100   12.9900    5.5100    1.3200   14.2800    6.8000];
+  
+% Hz3 = [];
+% for j = 1:3
+%     for i = 1:3
+%         Hz3 = [ Hz3, abs(Hzx(i)-Hzy(j))];
+%     end
+% end
+
+h = figure; hold on;
+
+stem(Hz, ones(length(Hz),1)*2, 'r')
+stem(Hz*2, ones(length(Hz),1)*1.5, 'g')
+stem(Hz2, ones(length(Hz2),1)*1, 'b')
+stem(Hz3, ones(length(Hz3),1)*0.5, 'k')
+
+
+for H = 1:length(Hz)
+    text(Hz(H), 2.05, str.Hz{H})
+    text(Hz(H)*2, 1.55, str.Hzdoub{H})
+end
+
+for H = 1:length(Hz2)
+    text(Hz2(H), 1.05, str.Hz2{H})
+    text(Hz3(H), 0.55, str.Hz3{H})
+end
+
+legend({'fund' '2*fund' 'a+b' 'a-b'})
+xlim([0 45])
+ylim([0 3])
+xlabel('Frequency (Hz)')
+
+saveas(h, [ cd '/results/FREQUENCIES.png']);
+saveas(h, [ cd '/results/FREQUENCIES']);
+
+return
+%% TEST SIGNAL - 60Hz
+fs = 60;
+lim.s = [0 5]; % epoch limits (seconds) relative to trigger
+
+lim.x = ceil(lim.s*fs) + 1;
+lim.x(2) = lim.x(2)  - 1;
+
+n.s = lim.s(2)-lim.s(1);
+n.x = lim.x(2)-lim.x(1)+1;
+
+t = (0:n.x-1)/fs;
+
+f = 0 : 1/n.s : fs - 1/n.s; % f = 0 : 1/n.s : fs;
+
+
+amp = abs( fft( sig ) )/n.x;
+amp(2:end-1,:) = amp(2:end-1,:)*2; % double amplitudes
+    
+h = figure;
+plot(f,amp )
+
+    
+    

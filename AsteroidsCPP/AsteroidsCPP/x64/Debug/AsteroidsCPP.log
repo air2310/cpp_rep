@@ -1,0 +1,29 @@
+﻿  Trialbmp.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\trialbmp.cpp(242): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  sctructures.cpp
+  CreateFlicker.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\createflicker.cpp(32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Feedback.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(39): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(41): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(48): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(49): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(50): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(101): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(109): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\feedback.cpp(150): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  PreAllocateAst.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\preallocateast.cpp(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\preallocateast.cpp(38): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\main.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  cue.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\cue.cpp(34): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\cue.cpp(36): warning C4244: 'argument': conversion from 'double' to 'INT', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\cue.cpp(42): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\cue.cpp(43): warning C4244: 'argument': conversion from 'int' to 'Gdiplus::REAL', possible loss of data
+  CreateColorCond.cpp
+  Generating Code...
+c:\users\uqarento\documents\visual studio 2015\projects\asteroidscpp\asteroidscpp\main.cpp(71): warning C4715: 'choosenFrames': not all control paths return a value
+  AsteroidsCPP.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\AsteroidsCPP\x64\Debug\AsteroidsCPP.exe
+  AsteroidsCPP.vcxproj -> C:\Users\uqarento\Documents\Visual Studio 2015\Projects\AsteroidsCPP\x64\Debug\AsteroidsCPP.pdb (Partial PDB)

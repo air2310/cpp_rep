@@ -1,0 +1,11 @@
+﻿<Window x:Class="wpfdemo.CalibrationSample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="CalibrationWindow" Height="300" Width="300" ShowInTaskbar="False" 
+    Background="LightGray" Cursor="Arrow" ResizeMode="NoResize" Topmost="False" 
+    KeyDown="Window_KeyDown" Initialized="Window_Initialized" Activated="Window_Activated">
+    <Grid Name="calGrid">
+        <Canvas Name="calCanvas" Margin="0,0,0,0" >
+        </Canvas>
+    </Grid>
+</Window>

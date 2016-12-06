@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(39): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(45): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(66): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(68): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(74): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(91): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\flicker.h(98): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\gradient.h(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\gradient.h(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\gradient.h(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\gradient.h(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\gradient.h(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\cueperiod.h(14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\cueperiod.h(15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\s4262470\documents\angela_renton_local\eyetrackcpp\gradientflicker_v2\gradientflicker_v2\main.cpp(140): warning C4101: 'check': unreferenced local variable
+  gradientflicker_V2.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\eyetrackCPP\gradientflicker_V2\x64\Debug\gradientflicker_V2.exe
+  gradientflicker_V2.vcxproj -> C:\Users\s4262470\Documents\angela_renton_local\eyetrackCPP\gradientflicker_V2\x64\Debug\gradientflicker_V2.pdb (Partial PDB)
