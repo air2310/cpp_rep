@@ -1,0 +1,14 @@
+﻿  main.cpp
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\settings.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\settings.h(48): warning C4018: '<': signed/unsigned mismatch
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(51): warning C4018: '<': signed/unsigned mismatch
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(55): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\gradient.h(65): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\main.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\main.cpp(27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\uqarento\documents\visual studio 2015\projects\basic grid flicker\sceneflick\main.cpp(61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
